@@ -1,0 +1,17 @@
+{
+  "name": "express-app-modules",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "async": "2.1.4",
+    "express-app": "git://github.com/starterstep/express-app.git",
+    "moment": "2.18.1",
+    "moment-timezone": "0.5.13",
+    "superagent": "git://github.com/starterstep/superagent.git",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "require-globify": "1.3.0"
+  }
+}
