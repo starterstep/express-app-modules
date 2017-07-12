@@ -1,0 +1,1981 @@
+".fi-address-book": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf100",
+	title: "\uf100"
+}
+".fi-alert": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf101",
+	title: "\uf101"
+}
+".fi-align-center": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf102",
+	title: "\uf102"
+}
+".fi-align-justify": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf103",
+	title: "\uf103"
+}
+".fi-align-left": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf104",
+	title: "\uf104"
+}
+".fi-align-right": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf105",
+	title: "\uf105"
+}
+".fi-anchor": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf106",
+	title: "\uf106"
+}
+".fi-annotate": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf107",
+	title: "\uf107"
+}
+".fi-archive": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf108",
+	title: "\uf108"
+}
+".fi-arrow-down": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf109",
+	title: "\uf109"
+}
+".fi-arrow-left": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf10a",
+	title: "\uf10a"
+}
+".fi-arrow-right": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf10b",
+	title: "\uf10b"
+}
+".fi-arrow-up": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf10c",
+	title: "\uf10c"
+}
+".fi-arrows-compress": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf10d",
+	title: "\uf10d"
+}
+".fi-arrows-expand": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf10e",
+	title: "\uf10e"
+}
+".fi-arrows-in": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf10f",
+	title: "\uf10f"
+}
+".fi-arrows-out": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf110",
+	title: "\uf110"
+}
+".fi-asl": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf111",
+	title: "\uf111"
+}
+".fi-asterisk": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf112",
+	title: "\uf112"
+}
+".fi-at-sign": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf113",
+	title: "\uf113"
+}
+".fi-background-color": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf114",
+	title: "\uf114"
+}
+".fi-battery-empty": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf115",
+	title: "\uf115"
+}
+".fi-battery-full": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf116",
+	title: "\uf116"
+}
+".fi-battery-half": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf117",
+	title: "\uf117"
+}
+".fi-bitcoin-circle": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf118",
+	title: "\uf118"
+}
+".fi-bitcoin": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf119",
+	title: "\uf119"
+}
+".fi-blind": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf11a",
+	title: "\uf11a"
+}
+".fi-bluetooth": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf11b",
+	title: "\uf11b"
+}
+".fi-bold": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf11c",
+	title: "\uf11c"
+}
+".fi-book-bookmark": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf11d",
+	title: "\uf11d"
+}
+".fi-book": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf11e",
+	title: "\uf11e"
+}
+".fi-bookmark": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf11f",
+	title: "\uf11f"
+}
+".fi-braille": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf120",
+	title: "\uf120"
+}
+".fi-burst-new": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf121",
+	title: "\uf121"
+}
+".fi-burst-sale": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf122",
+	title: "\uf122"
+}
+".fi-burst": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf123",
+	title: "\uf123"
+}
+".fi-calendar": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf124",
+	title: "\uf124"
+}
+".fi-camera": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf125",
+	title: "\uf125"
+}
+".fi-check": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf126",
+	title: "\uf126"
+}
+".fi-checkbox": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf127",
+	title: "\uf127"
+}
+".fi-clipboard-notes": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf128",
+	title: "\uf128"
+}
+".fi-clipboard-pencil": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf129",
+	title: "\uf129"
+}
+".fi-clipboard": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf12a",
+	title: "\uf12a"
+}
+".fi-clock": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf12b",
+	title: "\uf12b"
+}
+".fi-closed-caption": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf12c",
+	title: "\uf12c"
+}
+".fi-cloud": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf12d",
+	title: "\uf12d"
+}
+".fi-comment-minus": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf12e",
+	title: "\uf12e"
+}
+".fi-comment-quotes": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf12f",
+	title: "\uf12f"
+}
+".fi-comment-video": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf130",
+	title: "\uf130"
+}
+".fi-comment": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf131",
+	title: "\uf131"
+}
+".fi-comments": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf132",
+	title: "\uf132"
+}
+".fi-compass": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf133",
+	title: "\uf133"
+}
+".fi-contrast": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf134",
+	title: "\uf134"
+}
+".fi-credit-card": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf135",
+	title: "\uf135"
+}
+".fi-crop": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf136",
+	title: "\uf136"
+}
+".fi-crown": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf137",
+	title: "\uf137"
+}
+".fi-css3": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf138",
+	title: "\uf138"
+}
+".fi-database": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf139",
+	title: "\uf139"
+}
+".fi-die-five": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf13a",
+	title: "\uf13a"
+}
+".fi-die-four": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf13b",
+	title: "\uf13b"
+}
+".fi-die-one": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf13c",
+	title: "\uf13c"
+}
+".fi-die-six": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf13d",
+	title: "\uf13d"
+}
+".fi-die-three": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf13e",
+	title: "\uf13e"
+}
+".fi-die-two": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf13f",
+	title: "\uf13f"
+}
+".fi-dislike": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf140",
+	title: "\uf140"
+}
+".fi-dollar-bill": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf141",
+	title: "\uf141"
+}
+".fi-dollar": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf142",
+	title: "\uf142"
+}
+".fi-download": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf143",
+	title: "\uf143"
+}
+".fi-eject": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf144",
+	title: "\uf144"
+}
+".fi-elevator": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf145",
+	title: "\uf145"
+}
+".fi-euro": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf146",
+	title: "\uf146"
+}
+".fi-eye": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf147",
+	title: "\uf147"
+}
+".fi-fast-forward": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf148",
+	title: "\uf148"
+}
+".fi-female-symbol": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf149",
+	title: "\uf149"
+}
+".fi-female": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf14a",
+	title: "\uf14a"
+}
+".fi-filter": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf14b",
+	title: "\uf14b"
+}
+".fi-first-aid": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf14c",
+	title: "\uf14c"
+}
+".fi-flag": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf14d",
+	title: "\uf14d"
+}
+".fi-folder-add": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf14e",
+	title: "\uf14e"
+}
+".fi-folder-lock": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf14f",
+	title: "\uf14f"
+}
+".fi-folder": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf150",
+	title: "\uf150"
+}
+".fi-foot": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf151",
+	title: "\uf151"
+}
+".fi-foundation": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf152",
+	title: "\uf152"
+}
+".fi-graph-bar": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf153",
+	title: "\uf153"
+}
+".fi-graph-horizontal": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf154",
+	title: "\uf154"
+}
+".fi-graph-pie": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf155",
+	title: "\uf155"
+}
+".fi-graph-trend": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf156",
+	title: "\uf156"
+}
+".fi-guide-dog": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf157",
+	title: "\uf157"
+}
+".fi-hearing-aid": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf158",
+	title: "\uf158"
+}
+".fi-heart": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf159",
+	title: "\uf159"
+}
+".fi-home": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf15a",
+	title: "\uf15a"
+}
+".fi-html5": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf15b",
+	title: "\uf15b"
+}
+".fi-indent-less": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf15c",
+	title: "\uf15c"
+}
+".fi-indent-more": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf15d",
+	title: "\uf15d"
+}
+".fi-info": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf15e",
+	title: "\uf15e"
+}
+".fi-italic": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf15f",
+	title: "\uf15f"
+}
+".fi-key": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf160",
+	title: "\uf160"
+}
+".fi-laptop": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf161",
+	title: "\uf161"
+}
+".fi-layout": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf162",
+	title: "\uf162"
+}
+".fi-lightbulb": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf163",
+	title: "\uf163"
+}
+".fi-like": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf164",
+	title: "\uf164"
+}
+".fi-link": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf165",
+	title: "\uf165"
+}
+".fi-list-bullet": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf166",
+	title: "\uf166"
+}
+".fi-list-number": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf167",
+	title: "\uf167"
+}
+".fi-list-thumbnails": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf168",
+	title: "\uf168"
+}
+".fi-list": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf169",
+	title: "\uf169"
+}
+".fi-lock": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf16a",
+	title: "\uf16a"
+}
+".fi-loop": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf16b",
+	title: "\uf16b"
+}
+".fi-magnifying-glass": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf16c",
+	title: "\uf16c"
+}
+".fi-mail": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf16d",
+	title: "\uf16d"
+}
+".fi-male-female": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf16e",
+	title: "\uf16e"
+}
+".fi-male-symbol": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf16f",
+	title: "\uf16f"
+}
+".fi-male": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf170",
+	title: "\uf170"
+}
+".fi-map": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf171",
+	title: "\uf171"
+}
+".fi-marker": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf172",
+	title: "\uf172"
+}
+".fi-megaphone": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf173",
+	title: "\uf173"
+}
+".fi-microphone": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf174",
+	title: "\uf174"
+}
+".fi-minus-circle": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf175",
+	title: "\uf175"
+}
+".fi-minus": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf176",
+	title: "\uf176"
+}
+".fi-mobile-signal": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf177",
+	title: "\uf177"
+}
+".fi-mobile": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf178",
+	title: "\uf178"
+}
+".fi-monitor": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf179",
+	title: "\uf179"
+}
+".fi-mountains": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf17a",
+	title: "\uf17a"
+}
+".fi-music": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf17b",
+	title: "\uf17b"
+}
+".fi-next": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf17c",
+	title: "\uf17c"
+}
+".fi-no-dogs": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf17d",
+	title: "\uf17d"
+}
+".fi-no-smoking": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf17e",
+	title: "\uf17e"
+}
+".fi-page-add": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf17f",
+	title: "\uf17f"
+}
+".fi-page-copy": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf180",
+	title: "\uf180"
+}
+".fi-page-csv": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf181",
+	title: "\uf181"
+}
+".fi-page-delete": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf182",
+	title: "\uf182"
+}
+".fi-page-doc": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf183",
+	title: "\uf183"
+}
+".fi-page-edit": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf184",
+	title: "\uf184"
+}
+".fi-page-export-csv": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf185",
+	title: "\uf185"
+}
+".fi-page-export-doc": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf186",
+	title: "\uf186"
+}
+".fi-page-export-pdf": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf187",
+	title: "\uf187"
+}
+".fi-page-export": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf188",
+	title: "\uf188"
+}
+".fi-page-filled": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf189",
+	title: "\uf189"
+}
+".fi-page-multiple": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf18a",
+	title: "\uf18a"
+}
+".fi-page-pdf": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf18b",
+	title: "\uf18b"
+}
+".fi-page-remove": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf18c",
+	title: "\uf18c"
+}
+".fi-page-search": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf18d",
+	title: "\uf18d"
+}
+".fi-page": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf18e",
+	title: "\uf18e"
+}
+".fi-paint-bucket": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf18f",
+	title: "\uf18f"
+}
+".fi-paperclip": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf190",
+	title: "\uf190"
+}
+".fi-pause": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf191",
+	title: "\uf191"
+}
+".fi-paw": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf192",
+	title: "\uf192"
+}
+".fi-paypal": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf193",
+	title: "\uf193"
+}
+".fi-pencil": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf194",
+	title: "\uf194"
+}
+".fi-photo": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf195",
+	title: "\uf195"
+}
+".fi-play-circle": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf196",
+	title: "\uf196"
+}
+".fi-play-video": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf197",
+	title: "\uf197"
+}
+".fi-play": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf198",
+	title: "\uf198"
+}
+".fi-plus": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf199",
+	title: "\uf199"
+}
+".fi-pound": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf19a",
+	title: "\uf19a"
+}
+".fi-power": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf19b",
+	title: "\uf19b"
+}
+".fi-previous": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf19c",
+	title: "\uf19c"
+}
+".fi-price-tag": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf19d",
+	title: "\uf19d"
+}
+".fi-pricetag-multiple": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf19e",
+	title: "\uf19e"
+}
+".fi-print": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf19f",
+	title: "\uf19f"
+}
+".fi-prohibited": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1a0",
+	title: "\uf1a0"
+}
+".fi-projection-screen": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1a1",
+	title: "\uf1a1"
+}
+".fi-puzzle": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1a2",
+	title: "\uf1a2"
+}
+".fi-quote": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1a3",
+	title: "\uf1a3"
+}
+".fi-record": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1a4",
+	title: "\uf1a4"
+}
+".fi-refresh": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1a5",
+	title: "\uf1a5"
+}
+".fi-results-demographics": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1a6",
+	title: "\uf1a6"
+}
+".fi-results": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1a7",
+	title: "\uf1a7"
+}
+".fi-rewind-ten": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1a8",
+	title: "\uf1a8"
+}
+".fi-rewind": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1a9",
+	title: "\uf1a9"
+}
+".fi-rss": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1aa",
+	title: "\uf1aa"
+}
+".fi-safety-cone": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1ab",
+	title: "\uf1ab"
+}
+".fi-save": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1ac",
+	title: "\uf1ac"
+}
+".fi-share": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1ad",
+	title: "\uf1ad"
+}
+".fi-sheriff-badge": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1ae",
+	title: "\uf1ae"
+}
+".fi-shield": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1af",
+	title: "\uf1af"
+}
+".fi-shopping-bag": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1b0",
+	title: "\uf1b0"
+}
+".fi-shopping-cart": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1b1",
+	title: "\uf1b1"
+}
+".fi-shuffle": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1b2",
+	title: "\uf1b2"
+}
+".fi-skull": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1b3",
+	title: "\uf1b3"
+}
+".fi-social-500px": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1b4",
+	title: "\uf1b4"
+}
+".fi-social-adobe": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1b5",
+	title: "\uf1b5"
+}
+".fi-social-amazon": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1b6",
+	title: "\uf1b6"
+}
+".fi-social-android": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1b7",
+	title: "\uf1b7"
+}
+".fi-social-apple": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1b8",
+	title: "\uf1b8"
+}
+".fi-social-behance": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1b9",
+	title: "\uf1b9"
+}
+".fi-social-bing": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1ba",
+	title: "\uf1ba"
+}
+".fi-social-blogger": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1bb",
+	title: "\uf1bb"
+}
+".fi-social-delicious": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1bc",
+	title: "\uf1bc"
+}
+".fi-social-designer-news": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1bd",
+	title: "\uf1bd"
+}
+".fi-social-deviant-art": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1be",
+	title: "\uf1be"
+}
+".fi-social-digg": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1bf",
+	title: "\uf1bf"
+}
+".fi-social-dribbble": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1c0",
+	title: "\uf1c0"
+}
+".fi-social-drive": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1c1",
+	title: "\uf1c1"
+}
+".fi-social-dropbox": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1c2",
+	title: "\uf1c2"
+}
+".fi-social-evernote": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1c3",
+	title: "\uf1c3"
+}
+".fi-social-facebook": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1c4",
+	title: "\uf1c4"
+}
+".fi-social-flickr": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1c5",
+	title: "\uf1c5"
+}
+".fi-social-forrst": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1c6",
+	title: "\uf1c6"
+}
+".fi-social-foursquare": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1c7",
+	title: "\uf1c7"
+}
+".fi-social-game-center": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1c8",
+	title: "\uf1c8"
+}
+".fi-social-github": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1c9",
+	title: "\uf1c9"
+}
+".fi-social-google-plus": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1ca",
+	title: "\uf1ca"
+}
+".fi-social-hacker-news": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1cb",
+	title: "\uf1cb"
+}
+".fi-social-hi5": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1cc",
+	title: "\uf1cc"
+}
+".fi-social-instagram": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1cd",
+	title: "\uf1cd"
+}
+".fi-social-joomla": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1ce",
+	title: "\uf1ce"
+}
+".fi-social-lastfm": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1cf",
+	title: "\uf1cf"
+}
+".fi-social-linkedin": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1d0",
+	title: "\uf1d0"
+}
+".fi-social-medium": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1d1",
+	title: "\uf1d1"
+}
+".fi-social-myspace": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1d2",
+	title: "\uf1d2"
+}
+".fi-social-orkut": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1d3",
+	title: "\uf1d3"
+}
+".fi-social-path": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1d4",
+	title: "\uf1d4"
+}
+".fi-social-picasa": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1d5",
+	title: "\uf1d5"
+}
+".fi-social-pinterest": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1d6",
+	title: "\uf1d6"
+}
+".fi-social-rdio": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1d7",
+	title: "\uf1d7"
+}
+".fi-social-reddit": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1d8",
+	title: "\uf1d8"
+}
+".fi-social-skillshare": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1d9",
+	title: "\uf1d9"
+}
+".fi-social-skype": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1da",
+	title: "\uf1da"
+}
+".fi-social-smashing-mag": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1db",
+	title: "\uf1db"
+}
+".fi-social-snapchat": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1dc",
+	title: "\uf1dc"
+}
+".fi-social-spotify": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1dd",
+	title: "\uf1dd"
+}
+".fi-social-squidoo": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1de",
+	title: "\uf1de"
+}
+".fi-social-stack-overflow": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1df",
+	title: "\uf1df"
+}
+".fi-social-steam": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1e0",
+	title: "\uf1e0"
+}
+".fi-social-stumbleupon": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1e1",
+	title: "\uf1e1"
+}
+".fi-social-treehouse": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1e2",
+	title: "\uf1e2"
+}
+".fi-social-tumblr": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1e3",
+	title: "\uf1e3"
+}
+".fi-social-twitter": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1e4",
+	title: "\uf1e4"
+}
+".fi-social-vimeo": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1e5",
+	title: "\uf1e5"
+}
+".fi-social-windows": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1e6",
+	title: "\uf1e6"
+}
+".fi-social-xbox": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1e7",
+	title: "\uf1e7"
+}
+".fi-social-yahoo": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1e8",
+	title: "\uf1e8"
+}
+".fi-social-yelp": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1e9",
+	title: "\uf1e9"
+}
+".fi-social-youtube": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1ea",
+	title: "\uf1ea"
+}
+".fi-social-zerply": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1eb",
+	title: "\uf1eb"
+}
+".fi-social-zurb": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1ec",
+	title: "\uf1ec"
+}
+".fi-sound": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1ed",
+	title: "\uf1ed"
+}
+".fi-star": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1ee",
+	title: "\uf1ee"
+}
+".fi-stop": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1ef",
+	title: "\uf1ef"
+}
+".fi-strikethrough": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1f0",
+	title: "\uf1f0"
+}
+".fi-subscript": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1f1",
+	title: "\uf1f1"
+}
+".fi-superscript": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1f2",
+	title: "\uf1f2"
+}
+".fi-tablet-landscape": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1f3",
+	title: "\uf1f3"
+}
+".fi-tablet-portrait": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1f4",
+	title: "\uf1f4"
+}
+".fi-target-two": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1f5",
+	title: "\uf1f5"
+}
+".fi-target": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1f6",
+	title: "\uf1f6"
+}
+".fi-telephone-accessible": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1f7",
+	title: "\uf1f7"
+}
+".fi-telephone": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1f8",
+	title: "\uf1f8"
+}
+".fi-text-color": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1f9",
+	title: "\uf1f9"
+}
+".fi-thumbnails": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1fa",
+	title: "\uf1fa"
+}
+".fi-ticket": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1fb",
+	title: "\uf1fb"
+}
+".fi-torso-business": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1fc",
+	title: "\uf1fc"
+}
+".fi-torso-female": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1fd",
+	title: "\uf1fd"
+}
+".fi-torso": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1fe",
+	title: "\uf1fe"
+}
+".fi-torsos-all-female": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf1ff",
+	title: "\uf1ff"
+}
+".fi-torsos-all": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf200",
+	title: "\uf200"
+}
+".fi-torsos-female-male": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf201",
+	title: "\uf201"
+}
+".fi-torsos-male-female": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf202",
+	title: "\uf202"
+}
+".fi-torsos": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf203",
+	title: "\uf203"
+}
+".fi-trash": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf204",
+	title: "\uf204"
+}
+".fi-trees": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf205",
+	title: "\uf205"
+}
+".fi-trophy": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf206",
+	title: "\uf206"
+}
+".fi-underline": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf207",
+	title: "\uf207"
+}
+".fi-universal-access": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf208",
+	title: "\uf208"
+}
+".fi-unlink": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf209",
+	title: "\uf209"
+}
+".fi-unlock": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf20a",
+	title: "\uf20a"
+}
+".fi-upload-cloud": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf20b",
+	title: "\uf20b"
+}
+".fi-upload": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf20c",
+	title: "\uf20c"
+}
+".fi-usb": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf20d",
+	title: "\uf20d"
+}
+".fi-video": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf20e",
+	title: "\uf20e"
+}
+".fi-volume-none": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf20f",
+	title: "\uf20f"
+}
+".fi-volume-strike": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf210",
+	title: "\uf210"
+}
+".fi-volume": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf211",
+	title: "\uf211"
+}
+".fi-web": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf212",
+	title: "\uf212"
+}
+".fi-wheelchair": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf213",
+	title: "\uf213"
+}
+".fi-widget": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf214",
+	title: "\uf214"
+}
+".fi-wrench": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf215",
+	title: "\uf215"
+}
+".fi-x-circle": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf216",
+	title: "\uf216"
+}
+".fi-x": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf217",
+	title: "\uf217"
+}
+".fi-yen": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf218",
+	title: "\uf218"
+}
+".fi-zoom-in": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf219",
+	title: "\uf219"
+}
+".fi-zoom-out": {
+	font: {
+		fontFamily: 'fontcustom'
+	},
+	text: "\uf21a",
+	title: "\uf21a"
+}

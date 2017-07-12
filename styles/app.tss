@@ -1,0 +1,1382 @@
+//Grid
+".row": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	layout: 'horizontal',
+	horizontalWrap: false
+}
+".handheld-1": {
+	width: '6.25%',
+	height: Ti.UI.SIZE
+}
+".handheld-2": {
+	width: '12.5%',
+	height: Ti.UI.SIZE
+}
+".handheld-3": {
+	width: '18.75%',
+	height: Ti.UI.SIZE
+}
+".handheld-4": {
+	width: '25%',
+	height: Ti.UI.SIZE
+}
+".handheld-5": {
+	width: '31.25%',
+	height: Ti.UI.SIZE
+}
+".handheld-6": {
+	width: '37.5%',
+	height: Ti.UI.SIZE
+}
+".handheld-7": {
+	width: '43.75%',
+	height: Ti.UI.SIZE
+}
+".handheld-8": {
+	/* NOTE: 49.99% vs 50% fixes wrap problem when container is odd # of pixels in width */
+	width: '49.99%',
+	height: Ti.UI.SIZE
+}
+".handheld-9": {
+	width: '56.25%',
+	height: Ti.UI.SIZE
+}
+".handheld-10": {
+	width: '62.50%',
+	height: Ti.UI.SIZE
+}
+".handheld-11": {
+	width: '68.75%',
+	height: Ti.UI.SIZE
+}
+".handheld-12": {
+	width: '75%',
+	height: Ti.UI.SIZE
+}
+".handheld-13": {
+	width: '81.25%',
+	height: Ti.UI.SIZE
+}
+".handheld-14": {
+	width: '87.5%',
+	height: Ti.UI.SIZE
+}
+".handheld-15": {
+	width: '93.75%',
+	height: Ti.UI.SIZE
+}
+".handheld-16": {
+	width: '100%',
+	height: Ti.UI.SIZE
+}
+".offset-1": {
+    left: '6.25%'
+}
+".offset-2": {
+    left: '12.5%'
+}
+".offset-3": {
+    left: '18.75%'
+}
+".offset-4": {
+    left: '25%'
+}
+".offset-5": {
+    left: '31.25%'
+}
+".offset-6": {
+    left: '37.5%'
+}
+".offset-7": {
+    left: '43.75%'
+}
+".offset-8": {
+    /* NOTE: 49.99% vs 50% fixes wrap problem when container is odd # of pixels in left */
+    left: '49.99%'
+}
+".offset-9": {
+    left: '56.25%'
+}
+".offset-10": {
+    left: '62.50%'
+}
+".offset-11": {
+    left: '68.75%'
+}
+".offset-12": {
+    left: '75%'
+}
+".offset-13": {
+    left: '81.25%'
+}
+".offset-14": {
+    left: '87.5%'
+}
+".offset-15": {
+    left: '93.75%'
+}
+
+// Views
+"Window": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.white
+}
+"View": {
+	layout: 'vertical',
+	height: Ti.UI.SIZE
+}
+"ScrollView": {
+	layout: 'vertical',
+	contentWidth:Ti.UI.FILL
+}
+"WebView": {
+	width: "100%" //fixes font changing size
+}
+"Label": {
+	font: {
+        fontFamily: Alloy.Globals.foundation.defaults.primary.font.fontFamily,
+        fontSize: Alloy.Globals.foundation.defaults.primary.font.fontSize
+    },
+	color: Alloy.Globals.foundation.defaults.color.black
+}
+"Button": {
+	height: Alloy.Globals.foundation.defaults.height.medium,
+	font: {
+		fontFamily: Alloy.Globals.foundation.defaults.primary.font.fontFamily,
+		fontSize: Alloy.Globals.foundation.defaults.primary.font.fontSize
+	},
+	width: Ti.UI.FILL,
+	backgroundColor: Alloy.Globals.foundation.defaults.color.primary,
+	backgroundDisabledColor: Alloy.Globals.foundation.defaults.color.lightGray,
+	disabledColor: Alloy.Globals.foundation.defaults.color.lightestGray,
+	color: Alloy.Globals.foundation.defaults.color.white,
+	selectedBackgroundColor: 'transparent',
+	backgroundSelectedColor: 'transparent'
+}
+"TableView": {
+	backgroundColor: 'transparent',
+	width: '100%',
+	height: Ti.UI.FILL,
+	separatorColor: Alloy.Globals.foundation.defaults.color.gray
+}
+"TableViewRow": {
+	font: {
+		fontFamily: Alloy.Globals.foundation.defaults.primary.font.fontFamily,
+		fontSize: Alloy.Globals.foundation.defaults.primary.font.fontSize
+	},
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.lightestGray,
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.lightestGray
+}
+"TextField": {
+	height: Alloy.Globals.foundation.defaults.height.medium,
+	color: Alloy.Globals.foundation.defaults.color.darkestGray,
+	hintTextColor: Alloy.Globals.foundation.defaults.color.gray,
+	width: Ti.UI.FILL,
+	paddingLeft: Alloy.Globals.foundation.defaults.position.little,
+	font: Alloy.Globals.foundation.defaults.primary.font,
+	autocorrect: false,
+    backgroundColor: Alloy.Globals.foundation.defaults.color.white
+}
+"TextArea": {
+	height: Alloy.Globals.foundation.defaults.height.large,
+	color: Alloy.Globals.foundation.defaults.color.darkestGray,
+	hintTextColor: Alloy.Globals.foundation.defaults.color.gray,
+	width: Ti.UI.FILL,
+	autocorrect: false,
+	backgroundColor: Alloy.Globals.foundation.defaults.color.white,
+	paddingLeft: Alloy.Globals.foundation.defaults.position.little,
+	paddingRight: Alloy.Globals.foundation.defaults.position.little,
+	font: Alloy.Globals.foundation.defaults.primary.font,
+	enableReturnKey: true,
+	suppressReturn: false
+}
+
+//Loading Indicator
+".loading-indicator": {
+	layout: 'absolute',
+	top: 0,
+	left: 0,
+	zIndex: 999,
+	visible: false,
+	height: Ti.UI.FILL
+}
+".loading-indicator-button": {
+	color: Alloy.Globals.foundation.defaults.color.white,
+	backgroundColor: Alloy.Globals.foundation.defaults.color.black,
+	width: 100,
+	height: 40,
+	title: 'Loading...'
+}
+
+//Tabs
+".tabs": {
+	layout: 'horizontal',
+	horizontalWrap: false,
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightGray
+}
+".tabs-label": {
+    height: Ti.UI.FILL,
+    color: Alloy.Globals.foundation.defaults.color.black,
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightGray,
+    selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.lightestGray,
+    backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.lightestGray,
+    selectedColor: Alloy.Globals.foundation.defaults.color.black,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	wordWrap: false
+}
+
+//Image Select
+".image-select": {
+	width: 128,
+	height: 128,
+	hires: true
+}
+
+//Icon Bar
+".icon-bar-container": {
+	layout: 'horizontal',
+	horizontalWrap: false,
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightGray
+}
+".icon-bar-item": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightGray,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.lightestGray,
+    backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.lightestGray,
+    height: Ti.UI.FILL,
+	width: Ti.UI.SIZE
+}
+".icon-bar-icon": {
+    height: Ti.UI.FILL,
+	color: Alloy.Globals.foundation.defaults.color.black,
+	font: {
+		fontSize: Alloy.Globals.foundation.defaults.fontSize.big
+	}
+}
+".icon-bar-title": {
+	color: Alloy.Globals.foundation.defaults.color.black,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontSize: Alloy.Globals.foundation.defaults.fontSize.tiny
+	}
+}
+
+//Sub Nav
+".sub-nav-container": {
+	layout: 'horizontal',
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightGray,
+	height: Alloy.Globals.foundation.defaults.height.medium,
+	horizontalWrap: false
+}
+".sub-nav-item": {
+	layout: 'absolute',
+	width: Ti.UI.SIZE,
+	top: Alloy.Globals.foundation.defaults.position.small,
+	bottom: Alloy.Globals.foundation.defaults.position.small,
+	left: Alloy.Globals.foundation.defaults.position.small,
+    selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.primary,
+    backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.primary
+}
+".sub-nav-title": {
+	color: Alloy.Globals.foundation.defaults.color.black,
+	wordWrap: false
+}
+
+//Top Bar
+".top-bar": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightestGray,
+	height: 45,
+	layout: 'absolute'
+}
+".top-bar-offset": {
+	top: 45
+}
+".top-bar-left": {
+	left: 0,
+	width: '20%'
+}
+".top-bar-center": {
+	left: '20%',
+	right: '20%'
+}
+".top-bar-right": {
+	right: 0,
+	width: '20%'
+}
+".top-bar-label": {
+	height: Ti.UI.FILL,
+	color: Alloy.Globals.foundation.defaults.color.black,
+	font: {
+		fontSize: Alloy.Globals.foundation.defaults.fontSize.large
+	}
+}
+".top-bar-button": {
+	height: Ti.UI.FILL,
+	backgroundColor: 'transparent',
+	color: Alloy.Globals.foundation.defaults.color.primary
+}
+
+//Bottom Bar
+".bottom-bar": {
+	bottom: 0,
+	height: Alloy.Globals.foundation.defaults.height.large,
+	layout: 'absolute'
+}
+
+//Progress Bar
+".progress": {
+	left: 0,
+	layout: 'absolute',
+	height: Alloy.Globals.foundation.defaults.height.medium,
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightGray
+}
+".meter": {
+	layout: 'absolute',
+	width: 0,
+	left: 0,
+	backgroundColor: Alloy.Globals.foundation.defaults.color.primary
+}
+
+".thead": {
+	height: Alloy.Globals.foundation.defaults.height.small
+}
+".th": {
+	height: Alloy.Globals.foundation.defaults.height.small,
+	font: {
+		fontSize: Alloy.Globals.foundation.defaults.fontSize.small,
+		fontWeight: 'bold'
+	},
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightestGray,
+	left: 1,
+	right: 1,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+".hr": {
+	height: 1,
+	width: Ti.UI.FILL,
+	backgroundColor: Alloy.Globals.foundation.defaults.color.gray
+}
+".vr": {
+	width: 0.5,
+	height: Ti.UI.FILL,
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightGray,
+    top: 0,
+    bottom: 0
+}
+".callout": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightestGray,
+	height: Ti.UI.SIZE
+}
+".callout-content": {
+	left: Alloy.Globals.foundation.defaults.position.medium,
+	top: Alloy.Globals.foundation.defaults.position.medium,
+	right: Alloy.Globals.foundation.defaults.position.medium,
+	height: Ti.UI.SIZE
+}
+
+".no-select[platform=ios]": {
+	selectionStyle: Ti.UI.iOS.TableViewCellSelectionStyle.NONE
+}
+
+".no-select[platform=android]": {
+	selectedBackgroundColor: "transparent"
+}
+
+".no-separator": {
+    separatorStyle: Ti.UI.TABLE_VIEW_SEPARATOR_STYLE_NONE
+}
+
+".ios-dismiss-keyboard-on-drag[platform=ios]": {
+    keyboardDismissMode: Ti.UI.iOS.KEYBOARD_DISMISS_MODE_ON_DRAG
+}
+
+".subheader": {
+	color: Alloy.Globals.foundation.defaults.color.darkGray
+}
+
+".link": {
+    width: Ti.UI.FILL,
+    height: Alloy.Globals.foundation.defaults.height.medium,
+	color: Alloy.Globals.foundation.defaults.color.primary,
+	backgroundColor: 'transparent'
+}
+
+".prefix": {
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	width:Titanium.UI.FILL,
+	backgroundColor: Alloy.Globals.foundation.defaults.color.secondary,
+	color: Alloy.Globals.foundation.defaults.color.black
+}
+".postfix": {
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	width:Titanium.UI.FILL,
+	backgroundColor: Alloy.Globals.foundation.defaults.color.secondary,
+	color: Alloy.Globals.foundation.defaults.color.black
+}
+
+".primary": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.primary,
+	color: Alloy.Globals.foundation.defaults.color.white,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.primarySelected
+}
+".secondary": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.secondary,
+	color: Alloy.Globals.foundation.defaults.color.primary,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.secondarySelected,
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.secondarySelected,
+    borderWidth: Alloy.Globals.foundation.defaults.border.width.tiny,
+    borderColor: Alloy.Globals.foundation.defaults.color.primary
+}
+".alert": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.alert,
+	color: Alloy.Globals.foundation.defaults.color.white,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.alertSelected
+}
+".warning": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.warning,
+	color: Alloy.Globals.foundation.defaults.color.white,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.warningSelected
+}
+".success": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.success,
+	color: Alloy.Globals.foundation.defaults.color.white,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.successSelected
+}
+".info": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.info,
+	color: Alloy.Globals.foundation.defaults.color.black,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.infoSelected
+}
+
+".h1": {
+	font: {
+		fontSize:Alloy.Globals.foundation.defaults.fontSize.huge
+	}
+}
+".h2": {
+	font: {
+		fontSize:Alloy.Globals.foundation.defaults.fontSize.big
+	}
+}
+".h3": {
+	font: {
+		fontSize:Alloy.Globals.foundation.defaults.fontSize.large
+	}
+}
+".h4": {
+	font: {
+		fontSize:Alloy.Globals.foundation.defaults.fontSize.medium
+	}
+}
+".h5": {
+	font: {
+		fontSize:Alloy.Globals.foundation.defaults.fontSize.small
+	}
+}
+".h6": {
+	font: {
+		fontSize:Alloy.Globals.foundation.defaults.fontSize.tiny
+	}
+}
+
+".font-huge": {
+	font: {
+		fontSize:Alloy.Globals.foundation.defaults.fontSize.huge
+	}
+}
+".font-big": {
+	font: {
+		fontSize:Alloy.Globals.foundation.defaults.fontSize.big
+	}
+}
+".font-large": {
+	font: {
+		fontSize:Alloy.Globals.foundation.defaults.fontSize.large
+	}
+}
+".font-medium": {
+	font: {
+		fontSize:Alloy.Globals.foundation.defaults.fontSize.medium
+	}
+}
+".font-small": {
+	font: {
+		fontSize:Alloy.Globals.foundation.defaults.fontSize.small
+	}
+}
+".font-tiny": {
+	font: {
+		fontSize:Alloy.Globals.foundation.defaults.fontSize.tiny
+	}
+}
+
+".bold": {
+	font: {
+		fontFamily: "AvantGardeGothicITCW02Dm",
+		fontWeight: 'bold'
+	}
+}
+
+".light": {
+	font: {
+		fontFamily: "AvantGardeGothicITCW02XLt"
+	}
+}
+
+".tiny": {
+	height: Alloy.Globals.foundation.defaults.height.tiny,
+	width: Alloy.Globals.foundation.defaults.width.tiny
+}
+".little": {
+	height: Alloy.Globals.foundation.defaults.height.little,
+	width: Alloy.Globals.foundation.defaults.width.little
+}
+".small": {
+	height: Alloy.Globals.foundation.defaults.height.small,
+	width: Alloy.Globals.foundation.defaults.width.small
+}
+".medium": {
+	height: Alloy.Globals.foundation.defaults.height.medium,
+	width: Alloy.Globals.foundation.defaults.width.medium
+}
+".large": {
+	height: Alloy.Globals.foundation.defaults.height.large,
+	width: Alloy.Globals.foundation.defaults.width.large
+}
+".big": {
+	height: Alloy.Globals.foundation.defaults.height.big,
+	width: Alloy.Globals.foundation.defaults.width.big
+}
+".huge": {
+	height: Alloy.Globals.foundation.defaults.height.huge,
+	width: Alloy.Globals.foundation.defaults.width.huge
+}
+
+".width-tiny": {
+	width: Alloy.Globals.foundation.defaults.width.tiny
+}
+".width-little": {
+	width: Alloy.Globals.foundation.defaults.width.little
+}
+".width-small": {
+	width: Alloy.Globals.foundation.defaults.width.small
+}
+".width-medium": {
+	width: Alloy.Globals.foundation.defaults.width.medium
+}
+".width-large": {
+	width: Alloy.Globals.foundation.defaults.width.large
+}
+".width-big": {
+	width: Alloy.Globals.foundation.defaults.width.big
+}
+".width-huge": {
+	width: Alloy.Globals.foundation.defaults.width.huge
+}
+
+".height-tiny": {
+	height: Alloy.Globals.foundation.defaults.height.tiny
+}
+".height-little": {
+	height: Alloy.Globals.foundation.defaults.height.little
+}
+".height-small": {
+	height: Alloy.Globals.foundation.defaults.height.small
+}
+".height-medium": {
+	height: Alloy.Globals.foundation.defaults.height.medium
+}
+".height-large": {
+	height: Alloy.Globals.foundation.defaults.height.large
+}
+".height-big": {
+	height: Alloy.Globals.foundation.defaults.height.big
+}
+".height-huge": {
+	height: Alloy.Globals.foundation.defaults.height.huge
+}
+
+".radius-tiny": {
+	borderRadius: Alloy.Globals.foundation.defaults.border.radius.tiny
+}
+".radius-small": {
+	borderRadius: Alloy.Globals.foundation.defaults.border.radius.small
+}
+".radius": {
+	borderRadius: Alloy.Globals.foundation.defaults.border.radius.medium
+}
+".radius-medium": {
+	borderRadius: Alloy.Globals.foundation.defaults.border.radius.medium
+}
+".radius-large": {
+	borderRadius: Alloy.Globals.foundation.defaults.border.radius.large
+}
+
+
+".ios-radius-tiny[platform=ios]": {
+	borderRadius: Alloy.Globals.foundation.defaults.border.radius.tiny
+}
+".ios-radius-small[platform=ios]": {
+	borderRadius: Alloy.Globals.foundation.defaults.border.radius.small
+}
+".ios-radius[platform=ios]": {
+	borderRadius: Alloy.Globals.foundation.defaults.border.radius.medium
+}
+".ios-radius-medium[platform=ios]": {
+	borderRadius: Alloy.Globals.foundation.defaults.border.radius.medium
+}
+".ios-radius-large[platform=ios]": {
+	borderRadius: Alloy.Globals.foundation.defaults.border.radius.large
+}
+
+".round-tiny": {
+	borderRadius: Alloy.Globals.foundation.defaults.border.round.tiny
+}
+".round-small": {
+	borderRadius: Alloy.Globals.foundation.defaults.border.round.small
+}
+".round": {
+	borderRadius: Alloy.Globals.foundation.defaults.border.round.medium
+}
+".round-medium": {
+	borderRadius: Alloy.Globals.foundation.defaults.border.round.medium
+}
+".round-large": {
+	borderRadius: Alloy.Globals.foundation.defaults.border.round.large
+}
+
+".border": {
+	borderWidth: Alloy.Globals.foundation.defaults.border.width.tiny,
+	borderColor: Alloy.Globals.foundation.defaults.border.color
+}
+".border-tiny": {
+	borderWidth: Alloy.Globals.foundation.defaults.border.width.tiny,
+	borderColor: Alloy.Globals.foundation.defaults.border.color
+}
+".border-small": {
+	borderWidth: Alloy.Globals.foundation.defaults.border.width.small,
+	borderColor: Alloy.Globals.foundation.defaults.border.color
+}
+".border-medium": {
+	borderWidth: Alloy.Globals.foundation.defaults.border.width.medium,
+	borderColor: Alloy.Globals.foundation.defaults.border.color
+}
+".border-large": {
+	borderWidth: Alloy.Globals.foundation.defaults.border.width.large,
+	borderColor: Alloy.Globals.foundation.defaults.border.color
+}
+
+//Utilities
+".hide":{
+	visible: false
+}
+
+".left": {
+	left: 0
+}
+".right": {
+	right: 0
+}
+".top": {
+	top: 0
+}
+".bottom": {
+	bottom: 0
+}
+".left-right": {
+	left: 0,
+	right: 0
+}
+".top-bottom": {
+	top: 0,
+	bottom: 0
+}
+
+".left-tiny": {
+	left: Alloy.Globals.foundation.defaults.position.tiny
+}
+".right-tiny": {
+	right: Alloy.Globals.foundation.defaults.position.tiny
+}
+".top-tiny": {
+	top: Alloy.Globals.foundation.defaults.position.tiny
+}
+".bottom-tiny": {
+	bottom: Alloy.Globals.foundation.defaults.position.tiny
+}
+
+".left-tiny%": {
+	left: Alloy.Globals.foundation.defaults.position.tinyPercent
+}
+".right-tiny%": {
+	right: Alloy.Globals.foundation.defaults.position.tinyPercent
+}
+".top-tiny%": {
+	top: Alloy.Globals.foundation.defaults.position.tinyPercent
+}
+".bottom-tiny%": {
+	bottom: Alloy.Globals.foundation.defaults.position.tinyPercent
+}
+
+".left-little": {
+	left: Alloy.Globals.foundation.defaults.position.little
+}
+".right-little": {
+	right: Alloy.Globals.foundation.defaults.position.little
+}
+".top-little": {
+	top: Alloy.Globals.foundation.defaults.position.little
+}
+".bottom-little": {
+	bottom: Alloy.Globals.foundation.defaults.position.little
+}
+
+".left-little%": {
+	left: Alloy.Globals.foundation.defaults.position.littlePercent
+}
+".right-little%": {
+	right: Alloy.Globals.foundation.defaults.position.littlePercent
+}
+".top-little%": {
+	top: Alloy.Globals.foundation.defaults.position.littlePercent
+}
+".bottom-little%": {
+	bottom: Alloy.Globals.foundation.defaults.position.littlePercent
+}
+
+".left-small": {
+	left: Alloy.Globals.foundation.defaults.position.small
+}
+".right-small": {
+	right: Alloy.Globals.foundation.defaults.position.small
+}
+".top-small": {
+	top: Alloy.Globals.foundation.defaults.position.small
+}
+".bottom-small": {
+	bottom: Alloy.Globals.foundation.defaults.position.small
+}
+
+".left-small%": {
+	left: Alloy.Globals.foundation.defaults.position.smallPercent
+}
+".right-small%": {
+	right: Alloy.Globals.foundation.defaults.position.smallPercent
+}
+".top-small%": {
+	top: Alloy.Globals.foundation.defaults.position.smallPercent
+}
+".bottom-small%": {
+	bottom: Alloy.Globals.foundation.defaults.position.smallPercent
+}
+
+".left-medium": {
+	left: Alloy.Globals.foundation.defaults.position.medium
+}
+".right-medium": {
+	right: Alloy.Globals.foundation.defaults.position.medium
+}
+".top-medium": {
+	top: Alloy.Globals.foundation.defaults.position.medium
+}
+".bottom-medium": {
+	bottom: Alloy.Globals.foundation.defaults.position.medium
+}
+
+".left-medium%": {
+	left: Alloy.Globals.foundation.defaults.position.mediumPercent
+}
+".right-medium%": {
+	right: Alloy.Globals.foundation.defaults.position.mediumPercent
+}
+".top-medium%": {
+	top: Alloy.Globals.foundation.defaults.position.mediumPercent
+}
+".bottom-medium%": {
+	bottom: Alloy.Globals.foundation.defaults.position.mediumPercent
+}
+
+".left-large": {
+	left: Alloy.Globals.foundation.defaults.position.large
+}
+".right-large": {
+	right: Alloy.Globals.foundation.defaults.position.large
+}
+".top-large": {
+	top: Alloy.Globals.foundation.defaults.position.large
+}
+".bottom-large": {
+	bottom: Alloy.Globals.foundation.defaults.position.large
+}
+
+".left-large%": {
+	left: Alloy.Globals.foundation.defaults.position.largePercent
+}
+".right-large%": {
+	right: Alloy.Globals.foundation.defaults.position.largePercent
+}
+".top-large%": {
+	top: Alloy.Globals.foundation.defaults.position.largePercent
+}
+".bottom-large%": {
+	bottom: Alloy.Globals.foundation.defaults.position.largePercent
+}
+
+".left-big": {
+	left: Alloy.Globals.foundation.defaults.position.big
+}
+".right-big": {
+	right: Alloy.Globals.foundation.defaults.position.big
+}
+".top-big": {
+	top: Alloy.Globals.foundation.defaults.position.big
+}
+".bottom-big": {
+	bottom: Alloy.Globals.foundation.defaults.position.big
+}
+
+".left-big%": {
+	left: Alloy.Globals.foundation.defaults.position.bigPercent
+}
+".right-big%": {
+	right: Alloy.Globals.foundation.defaults.position.bigPercent
+}
+".top-big%": {
+	top: Alloy.Globals.foundation.defaults.position.bigPercent
+}
+".bottom-big%": {
+	bottom: Alloy.Globals.foundation.defaults.position.bigPercent
+}
+
+".left-huge": {
+	left: Alloy.Globals.foundation.defaults.position.huge
+}
+".right-huge": {
+	right: Alloy.Globals.foundation.defaults.position.huge
+}
+".top-huge": {
+	top: Alloy.Globals.foundation.defaults.position.huge
+}
+".bottom-huge": {
+	bottom: Alloy.Globals.foundation.defaults.position.huge
+}
+
+".left-huge%": {
+	left: Alloy.Globals.foundation.defaults.position.hugePercent
+}
+".right-huge%": {
+	right: Alloy.Globals.foundation.defaults.position.hugePercent
+}
+".top-huge%": {
+	top: Alloy.Globals.foundation.defaults.position.hugePercent
+}
+".bottom-huge%": {
+	bottom: Alloy.Globals.foundation.defaults.position.hugePercent
+}
+
+".size": {
+	height:Titanium.UI.SIZE,
+	width:Titanium.UI.SIZE
+}
+".height-size": {
+	height:Titanium.UI.SIZE
+}
+".width-size": {
+	width:Titanium.UI.SIZE
+}
+
+".fill": {
+	height:Titanium.UI.FILL,
+	width:Titanium.UI.FILL,
+	top: 0,
+	right: 0,
+	bottom: 0,
+	left: 0
+}
+".height-fill": {
+	height:Titanium.UI.FILL,
+	top: 0,
+	bottom: 0
+}
+".width-fill": {
+	width:Titanium.UI.FILL,
+	left: 0,
+	right: 0
+}
+
+".auto": {
+    height: "auto",
+    width: "auto"
+}
+
+".height-auto": {
+    height: "auto"
+}
+
+".height-zero": {
+    height: 0
+}
+
+".width-auto": {
+    width: "auto"
+}
+
+".text-center": {
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	verticalAlign:Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER
+}
+".text-left": {
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+".text-right": {
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+".text-top": {
+	verticalAlign:Titanium.UI.TEXT_VERTICAL_ALIGNMENT_TOP
+}
+".text-bottom": {
+	verticalAlign:Titanium.UI.TEXT_VERTICAL_ALIGNMENT_BOTTOM
+}
+
+".horizontal": {
+	layout: 'horizontal'
+}
+".vertical": {
+	layout: 'vertical'
+}
+".absolute": {
+	layout: 'absolute'
+}
+".no-wrap": {
+	horizontalWrap: false,
+	wordWrap: false
+}
+
+".spacer-tiny": {
+	height: Alloy.Globals.foundation.defaults.position.tiny,
+	width: Alloy.Globals.foundation.defaults.position.tiny
+}
+".spacer-little": {
+	height: Alloy.Globals.foundation.defaults.position.little,
+	width: Alloy.Globals.foundation.defaults.position.little
+}
+".spacer-small": {
+	height: Alloy.Globals.foundation.defaults.position.small,
+	width: Alloy.Globals.foundation.defaults.position.small
+}
+".spacer-medium": {
+	height: Alloy.Globals.foundation.defaults.position.medium,
+	width: Alloy.Globals.foundation.defaults.position.medium
+}
+".spacer-large": {
+	height: Alloy.Globals.foundation.defaults.position.large,
+	width: Alloy.Globals.foundation.defaults.position.large
+}
+".spacer-big": {
+	height: Alloy.Globals.foundation.defaults.position.big,
+	width: Alloy.Globals.foundation.defaults.position.big
+}
+".spacer-huge": {
+	height: Alloy.Globals.foundation.defaults.position.huge,
+	width: Alloy.Globals.foundation.defaults.position.huge
+}
+
+//Background Colors
+".white": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.white
+}
+".light-red": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightRed
+}
+".red": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.red
+}
+".dark-red": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.darkRed
+}
+".light-green": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightGreen
+}
+".green": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.green
+}
+".dark-green": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.darkGreen
+}
+".light-gold": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightGold
+}
+".gold": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.gold
+}
+".dark-gold": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.darkGold
+}
+".light-orange": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightOrange
+}
+".orange": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.orange
+}
+".dark-orange": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.darkOrange
+}
+".lightest-gray": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightestGray
+}
+".light-gray": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightGray
+}
+".gray": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.gray
+}
+".dark-gray": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.darkGray
+}
+".darkest-gray": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.darkestGray
+}
+".lightest-blue": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightestBlue
+}
+".light-blue": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.lightBlue
+}
+".blue": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.blue
+}
+".dark-blue": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.darkBlue
+}
+".darkest-blue": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.darkestBlue
+}
+".black": {
+	backgroundColor: Alloy.Globals.foundation.defaults.color.black
+}
+".transparent": {
+    backgroundColor: "transparent"
+}
+
+//Font Colors
+".color-primary": {
+	color: Alloy.Globals.foundation.defaults.color.primary
+}
+".color-secondary": {
+	color: Alloy.Globals.foundation.defaults.color.secondary
+}
+".color-white": {
+	color: Alloy.Globals.foundation.defaults.color.white
+}
+".color-light-red": {
+	color: Alloy.Globals.foundation.defaults.color.lightRed
+}
+".color-red": {
+	color: Alloy.Globals.foundation.defaults.color.red
+}
+".color-dark-red": {
+	color: Alloy.Globals.foundation.defaults.color.darkRed
+}
+".color-light-green": {
+	color: Alloy.Globals.foundation.defaults.color.lightGreen
+}
+".color-green": {
+	color: Alloy.Globals.foundation.defaults.color.green
+}
+".color-dark-green": {
+	color: Alloy.Globals.foundation.defaults.color.darkGreen
+}
+".color-light-gold": {
+	color: Alloy.Globals.foundation.defaults.color.lightGold
+}
+".color-gold": {
+	color: Alloy.Globals.foundation.defaults.color.gold
+}
+".color-dark-gold": {
+	color: Alloy.Globals.foundation.defaults.color.darkGold
+}
+".color-light-orange": {
+	color: Alloy.Globals.foundation.defaults.color.lightOrange
+}
+".color-orange": {
+	color: Alloy.Globals.foundation.defaults.color.orange
+}
+".color-dark-orange": {
+	color: Alloy.Globals.foundation.defaults.color.darkOrange
+}
+".color-lightest-gray": {
+	color: Alloy.Globals.foundation.defaults.color.lightestGray
+}
+".color-light-gray": {
+	color: Alloy.Globals.foundation.defaults.color.lightGray
+}
+".color-gray": {
+	color: Alloy.Globals.foundation.defaults.color.gray
+}
+".color-dark-gray": {
+	color: Alloy.Globals.foundation.defaults.color.darkGray
+}
+".color-darkest-gray": {
+	color: Alloy.Globals.foundation.defaults.color.darkestGray
+}
+".color-lightest-blue": {
+	color: Alloy.Globals.foundation.defaults.color.lightestBlue
+}
+".color-light-blue": {
+	color: Alloy.Globals.foundation.defaults.color.lightBlue
+}
+".color-blue": {
+	color: Alloy.Globals.foundation.defaults.color.blue
+}
+".color-dark-blue": {
+	color: Alloy.Globals.foundation.defaults.color.darkBlue
+}
+".color-darkest-blue": {
+	color: Alloy.Globals.foundation.defaults.color.darkestBlue
+}
+".color-black": {
+	color: Alloy.Globals.foundation.defaults.color.black
+}
+".color-purple": {
+	color: Alloy.Globals.foundation.defaults.color.purple
+}
+
+//Selected Background Colors
+".selected-white": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.white,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.white
+}
+".selected-light-red": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.lightRed,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.lightRed
+}
+".selected-red": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.red,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.red
+}
+".selected-dark-red": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.darkRed,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.darkRed
+}
+".selected-light-green": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.lightGreen,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.lightGreen
+}
+".selected-green": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.green,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.green
+}
+".selected-dark-green": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.darkGreen,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.darkGreen
+}
+".selected-light-gold": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.lightGold,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.lightGold
+}
+".selected-gold": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.gold,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.gold
+}
+".selected-dark-gold": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.darkGold,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.darkGold
+}
+".selected-light-orange": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.lightOrange,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.lightOrange
+}
+".selected-orange": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.orange,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.orange
+}
+".selected-dark-orange": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.darkOrange,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.darkOrange
+}
+".selected-lightest-gray": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.lightestGray,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.lightestGray
+}
+".selected-light-gray": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.lightGray,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.lightGray
+}
+".selected-gray": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.gray,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.gray
+}
+".selected-dark-gray": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.darkGray,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.darkGray
+}
+".selected-darkest-gray": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.darkestGray,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.darkestGray
+}
+".selected-lightest-blue": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.lightestBlue,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.lightestBlue
+}
+".selected-light-blue": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.lightBlue,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.lightBlue
+}
+".selected-blue": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.blue,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.blue
+}
+".selected-dark-blue": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.darkBlue,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.darkBlue
+}
+".selected-darkest-blue": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.darkestBlue,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.darkestBlue
+}
+".selected-black": {
+	backgroundSelectedColor: Alloy.Globals.foundation.defaults.color.black,
+	selectedBackgroundColor: Alloy.Globals.foundation.defaults.color.black
+}
+".selected-transparent": {
+    backgroundSelectedColor: "transparent",
+    selectedBackgroundColor: "transparent"
+}
+
+//Selected Font Colors
+".selected-color-white": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.white
+}
+".selected-color-light-red": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.lightRed
+}
+".selected-color-red": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.red
+}
+".selected-color-dark-red": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.darkRed
+}
+".selected-color-light-green": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.lightGreen
+}
+".selected-color-green": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.green
+}
+".selected-color-dark-green": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.darkGreen
+}
+".selected-color-light-gold": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.lightGold
+}
+".selected-color-gold": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.gold
+}
+".selected-color-dark-gold": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.darkGold
+}
+".selected-color-light-orange": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.lightOrange
+}
+".selected-color-orange": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.orange
+}
+".selected-color-dark-orange": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.darkOrange
+}
+".selected-color-lightest-gray": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.lightestGray
+}
+".selected-color-light-gray": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.lightGray
+}
+".selected-color-gray": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.gray
+}
+".selected-color-dark-gray": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.darkGray
+}
+".selected-color-darkest-gray": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.darkestGray
+}
+".selected-color-lightest-blue": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.lightestBlue
+}
+".selected-color-light-blue": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.lightBlue
+}
+".selected-color-blue": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.blue
+}
+".selected-color-dark-blue": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.darkBlue
+}
+".selected-color-darkest-blue": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.darkestBlue
+}
+".selected-color-black": {
+	selectedColor: Alloy.Globals.foundation.defaults.color.black
+}
+
+//Border Colors
+".border-white": {
+	borderColor: Alloy.Globals.foundation.defaults.color.white
+}
+".border-light-red": {
+	borderColor: Alloy.Globals.foundation.defaults.color.lightRed
+}
+".border-red": {
+	borderColor: Alloy.Globals.foundation.defaults.color.red
+}
+".border-dark-red": {
+	borderColor: Alloy.Globals.foundation.defaults.color.darkRed
+}
+".border-light-green": {
+	borderColor: Alloy.Globals.foundation.defaults.color.lightGreen
+}
+".border-green": {
+	borderColor: Alloy.Globals.foundation.defaults.color.green
+}
+".border-dark-green": {
+	borderColor: Alloy.Globals.foundation.defaults.color.darkGreen
+}
+".border-light-orange": {
+	borderColor: Alloy.Globals.foundation.defaults.color.lightOrange
+}
+".border-orange": {
+	borderColor: Alloy.Globals.foundation.defaults.color.orange
+}
+".border-dark-orange": {
+	borderColor: Alloy.Globals.foundation.defaults.color.darkOrange
+}
+".border-lightest-gray": {
+	borderColor: Alloy.Globals.foundation.defaults.color.lightestGray
+}
+".border-light-gray": {
+	borderColor: Alloy.Globals.foundation.defaults.color.lightGray
+}
+".border-gray": {
+	borderColor: Alloy.Globals.foundation.defaults.color.gray
+}
+".border-dark-gray": {
+	borderColor: Alloy.Globals.foundation.defaults.color.darkGray
+}
+".border-darkest-gray": {
+	borderColor: Alloy.Globals.foundation.defaults.color.darkestGray
+}
+".border-lightest-blue": {
+	borderColor: Alloy.Globals.foundation.defaults.color.lightestBlue
+}
+".border-light-blue": {
+	borderColor: Alloy.Globals.foundation.defaults.color.lightBlue
+}
+".border-blue": {
+	borderColor: Alloy.Globals.foundation.defaults.color.blue
+}
+".border-dark-blue": {
+	borderColor: Alloy.Globals.foundation.defaults.color.darkBlue
+}
+".border-darkest-blue": {
+	borderColor: Alloy.Globals.foundation.defaults.color.darkestBlue
+}
+".border-black": {
+	borderColor: Alloy.Globals.foundation.defaults.color.black
+}
