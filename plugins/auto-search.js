@@ -32,7 +32,7 @@ module.exports = function(context) {
     });
 
     $.clear = function() {
-        clear = !Alloy.OS_IOS;
+        clear = !OS_IOS;
         input.value = '';
     };
 

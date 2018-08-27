@@ -22,7 +22,7 @@ module.exports = function(context) {
             return;
         }
 
-        if (Alloy.OS_IOS && e.contentOffset) {
+        if (OS_IOS && e.contentOffset) {
             var sizeHeight = e.size.height;
             var contentSizeHeight = e.contentSize.height;
             var contentOffsetY = e.contentOffset.y;
@@ -51,7 +51,7 @@ module.exports = function(context) {
                 }
             }
         }
-        if (Alloy.OS_ANDROID) {
+        if (OS_ANDROID) {
             totalItemCount = e.totalItemCount;
             firstVisibleItem = e.firstVisibleItem;
             visibleItemCount = e.visibleItemCount;

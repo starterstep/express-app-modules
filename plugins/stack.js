@@ -33,7 +33,7 @@ module.exports = function(context) {
             callback = animated;
             animated = true;
         }
-        animated = animated && Alloy.OS_IOS;
+        animated = animated && OS_IOS;
 
         var topController = $.top();
 
@@ -111,7 +111,7 @@ module.exports = function(context) {
             callback = animated;
             animated = true;
         }
-        animated = animated && Alloy.OS_IOS;
+        animated = animated && OS_IOS;
 
         var controller = controllers.pop();
         var controllerView = controller.getView();
